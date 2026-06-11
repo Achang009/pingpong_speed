@@ -20,8 +20,6 @@ architecture Behavioral of ping_pong is
     signal dir        : STD_LOGIC; 
     signal sc_L       : STD_LOGIC_VECTOR(3 downto 0);
     signal sc_R       : STD_LOGIC_VECTOR(3 downto 0);
-    
-    -- 除頻器使用的計數器
     signal cnt        : STD_LOGIC_VECTOR(bits-1 downto 0) := (others => '0');
     signal f_clk      : std_logic;
     
@@ -36,7 +34,7 @@ begin
 
     o_led <= led;
 
-    -- 1. 除頻器 (已恢復)
+    -- 1. 除頻器
     frequencydivider: process(i_clk, i_rst)
     begin
         if i_rst = '1' then 
