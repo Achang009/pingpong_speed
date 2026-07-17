@@ -18,3 +18,8 @@
 # 架構圖
 <img width="860" height="1099" alt="image" src="https://github.com/user-attachments/assets/e82c3a35-74c1-4d61-8e30-8189766ed4e9" />
 
+# 影片
+
+
+https://github.com/user-attachments/assets/f9e20ed8-f881-456e-adbe-7d578f553caa
+
